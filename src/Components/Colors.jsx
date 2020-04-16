@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import { Route, Switch, Redirect, withRouter } from "react-router-dom";
-// import Red from "./Red";
-// import Green from "./Green";
-// import Blue from "./Blue";
 import ColorsHome from "./ColorsHome";
 import DisplayColor from "./DisplayColor";
 import AddColor from "./AddColor";
-// import Test from "./NewColors";
 
 class Colors extends Component {
   state = {
