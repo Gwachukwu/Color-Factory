@@ -12,8 +12,8 @@ class Colors extends Component {
   state = {
     colors: [
       { name: "red", value: "#FF0000" },
-      { name: "yellow", value: "#F2FC0B" },
-      { name: "blue", value: "#1217F0" },
+      { name: "green", value: "#00FF00" },
+      { name: "blue", value: "#0000FF" },
     ],
     color: "",
     colorHex: "",

@@ -6,9 +6,10 @@ export default function DisplayColor() {
   console.log(name,'>>>')
   return (
     <div className="colorDisplay" style={{ background: `#${value}` }}>
-      <h1>This is color {name} </h1>
+      <h1>This is color {name} with hex color code #{value}</h1>
+      <p>Isn't it beautiful?</p>
       <Link to={"/"}>
-        <h1>Go Back</h1>
+        <p style={{color:'white'}}>Go back</p>
       </Link>
     </div>
   );
