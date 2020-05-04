@@ -3,7 +3,6 @@ import { Link, useParams } from "react-router-dom";
 
 export default function DisplayColor() {
   const { name,value } = useParams();
-  console.log(name,'>>>')
   return (
     <div className="colorDisplay" style={{ background: `#${value}` }}>
       <h1>This is color {name} with hex color code #{value}</h1>

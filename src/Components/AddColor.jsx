@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class AddColor extends Component {
   render() {
-    console.log("color", this.props.color, this.props.ColorHex);
     return (
       <div className="add-color-wrapper">
         <div className="add-color">
